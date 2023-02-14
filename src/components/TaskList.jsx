@@ -13,7 +13,7 @@ function TaskList() {
         </div>)
     }
 
-    return (<div className='grid grid-cols-3 place-items-stretch gap-3 p-5'>
+    return (<div className='grid grid-cols-3 place-items-stretch gap-3 p-5 max-sm:grid-cols-1'>
         {
             tasks.map((task) => (
                 <TaskCard key={task.id} task={task} />
