@@ -9,7 +9,7 @@ function TaskList() {
 
     if (tasks.length === 0) {
         return(<div>
-            <h1 className='text-white text-xl font-extrabold text-center'>There are not tasks yet</h1>
+            <h1 className='text-white text-xl font-extrabold text-center'>There are not tasks yet...</h1>
         </div>)
     }
 
