@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 function App() {
 
   return <main className='bg-gray-900 h-screen'>
-    <div className='bg-gray-900 mx-auto p-10'>
+    <div className='bg-gray-900 mx-auto p-10 max-sm:p-2'>
       <div ><TaskForm /></div>
       <div><TaskList /></div>
       
